@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.modulefx</groupId>
-    <artifactId>org.view.test</artifactId>
+    <artifactId>modulefx.view.test</artifactId>
     <version>1.0.0</version>
     <packaging>bundle</packaging>
 
