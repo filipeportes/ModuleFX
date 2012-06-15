@@ -1,0 +1,11 @@
+#panelBottom{
+    -fx-text-alignment: center;
+    -fx-background-color:linear-gradient(#333333,#191919);
+}
+
+#panelLeft{
+    -fx-background-color: #4775A3;
+}
+#panelCenter{
+    -fx-background-color:linear-gradient(white,#DDDDDD);
+}

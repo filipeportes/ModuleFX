@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import fxml.*?>
+
+<BorderPane id="borderPane" xmlns:fx="http://javafx.com/fxml" 
+            prefWidth="800" prefHeight="600">
+    <top>
+        <fx:include source="Menu.fxml" />
+    </top>
+    <left>
+        <GridPane id="panelLeft" prefWidth="200"/>
+    </left>
+    <center>
+        <Label text="Congratulations!!! Here is your JavaFX application running over an OSGI Framework!!" />
+    </center>
+    <bottom>
+        <BorderPane id="panelBottom" prefHeight="30" >
+            <center>
+                <Label style="-fx-text-fill: #dddddd;" text=" autor: Filipe Portes - omeuefilipe@gmail.com " />
+            </center>
+        </BorderPane>
+    </bottom>
+</BorderPane>
+
