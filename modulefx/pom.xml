@@ -29,10 +29,6 @@
                     <instructions>
                         <Bundle-SymbolicNames>org.modulefx.embedded</Bundle-SymbolicNames>
                         <Export-Package>*</Export-Package>
-                        <Bundle-NativeCode>
-                            dll/win64/decora-d3d.dll; dll/win64/decora-sse.dll; dll/win64/deploy.dll; dll/win64/eula.dll; dll/win64/fxplugins.dll; dll/win64/glass.dll; dll/win64/glib-lite.dll; dll/win64/gstreamer-lite.dll; dll/win64/javafx-font.dll; dll/win64/javafx-iio.dll; dll/win64/jfxmedia.dll; dll/win64/jp2iexp.dll; dll/win64/jp2native.dll; dll/win64/jp2ssv.dll; dll/win64/libxml2.dll; dll/win64/libxslt.dll; dll/win64/mat.dll; dll/win64/msvcr100.dll; dll/win64/prism-d3d.dll; dll/win64/prism-es2.dll; dll/win64/ssv.dll; dll/win64/WebPaneJava.dll; dll/win64/wsdetect.dll; osname=Windows7; processor=x86-64, 
-                            dll/win32/axbridge.dll; dll/win32/decora-d3d.dll; dll/win32/decora-sse.dll; dll/win32/deploy.dll; dll/win32/eula.dll; dll/win32/fxplugins.dll; dll/win32/glass.dll; dll/win32/glib-lite.dll; dll/win32/gstreamer-lite.dll; dll/win32/javafx-font.dll; dll/win32/javafx-iio.dll; dll/win32/jfxmedia.dll; dll/win32/jp2iexp.dll; dll/win32/jp2native.dll; dll/win32/jp2ssv.dll; dll/win32/jpicom.dll; dll/win32/jpiexp.dll; dll/win32/jpinscp.dll; dll/win32/jpioji.dll; dll/win32/jpishare.dll; dll/win32/libxml2.dll; dll/win32/libxslt.dll; dll/win32/msvcr100.dll; dll/win32/npjpi170_04.dll; dll/win32/npoji610.dll; dll/win32/prism-d3d.dll; dll/win32/prism-es2.dll; dll/win32/ssv.dll; dll/win32/WebPaneJava.dll; dll/win32/wsdetect.dll; osname=Windows7; processor=x86
-                        </Bundle-NativeCode>
                     </instructions>
                 </configuration>
                 <executions>
@@ -58,6 +54,7 @@
     <dependencies>
         
         <!-- JAVAFX_HOME is the JAVAFX Runtime path -->
+        <!-- OBS.: Case you have an an JRE or JDK 7 isntalled with bundled JavaFX 2.2 point JAVAFX_HOME to this example C:\Program Files\Java\jdk1.7.0_17\jre -->
         <dependency>
             <groupId>javafx</groupId>
             <artifactId>javafxrt</artifactId>
