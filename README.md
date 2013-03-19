@@ -1,9 +1,10 @@
 ModuleFX
 ========
 
-ModuleFX embed the JavaFX Runtime inside an OSGI bundle, allowing you to create modular JavaFX apps with all the power of OSGI framework, getting the best of Java Rich Client and Modularization worlds together.
+ModuleFX enable you to use JavaFX in an OSGI environment, allowing you to create modular JavaFX apps with all the power of OSGI framework, getting the best of Java Rich Client and Modularization worlds together.
 
 OBS> It's still support only windows 32 and 64 bit operating system, soon will be added linux and macos support too.
+UPDATE: It's now 'teorically' support all OS, please help me testing it in you system and sending any feedback.
 
 Copyright 2012 Filipe Portes
 
