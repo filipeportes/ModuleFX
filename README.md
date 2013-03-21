@@ -5,6 +5,8 @@ ModuleFX enable you to use JavaFX in an OSGI environment, allowing you to create
 
 It's 'theoretically (need more tests)'  support all OS, please help me testing it in you system and sending any feedback.
 
+You can open this as projects on NetBeans!!
+
 Copyright 2012 Filipe Portes
 
 Licensed under the Apache License, Version 2.0 (the "License");
