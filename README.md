@@ -1,6 +1,8 @@
 ModuleFX
 ========
 
+ModuleFX is no longer working due the updates in JavaFX and JVM, If you want to use JavaFX and OSGi in the JDK 8 see this project -> https://github.com/filipeportes/osgifx
+
 ModuleFX enable you to use JavaFX in an OSGI environment, allowing you to create modular JavaFX apps with all the power of OSGI framework, getting the best of Java Rich Client and Modularization worlds together.
 
 It's 'theoretically (need more tests)'  support all OS, please help me testing it in you system and sending any feedback.
